@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>La Team</title>
+    <style>
+        .user {
+            display: flex;
+            background: #616ce5;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+      #team img {
+    
+        margin-left : 150px;
+      }  
+        
+    </style>
+</head>
+
+<body>
+    <h1>Les gars de la Team</h1>
+     <form action="#">
+        <p id="messageId">
+            <label for="id">Identifiant :</label>
+            <input type="number" required id="id" value="0" min="0" title="Saisissez un numéro et validez">
+        </p>
+        <p>
+            <img src="images/noBody.jpeg" alt="Photo d'identité" id="photo">
+        </p>
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" readonly>
+        </p>
+        <p>
+            <label for="specialite">Spécialité :</label>
+            <input type="text" name="specialite" id="specialite" readonly>
+        </p>
+        <p>
+            <label for="naissance">Naissance :</label>
+            <input type="number" min="0" max="9999" step="1" pattern="\d+" id="naissance" readonly>
+        </p>
+        <p>
+            <label for="residence">Résidence :</label>
+            <input type="text" id="residence" readonly>
+        </p>
+        <fieldset>
+            <legend>Notes</legend>
+            <div id="notes"></div>
+        </fieldset>
+    </form>
+        <br><br>
+        <button id="button">Voir la Team</button>
+        <br><br>
+        <h1>La TEAM</h1>
+        <div id="team"></div>
+
+    <script src="data/personnes.js"></script>
+    <script src="js/modele.js"></script>
+
+    <script>
+        document.getElementById('button').addEventListener('click',teamVue);
+
+        // =Fonction voir les gars de la team
+
+        function teamVue(){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'test.json', true);
+
+            xhr.onload = function(){
+                if (this.status == 200) {
+                    var test = JSON.parse(this.responseText);
+
+                    var output = '';
+                    
+                    for (var i in test) {
+                        output +=
+                        '<div class="user">' +
+                        '<img src="'+test[i].photo+'"   width="150" height="150">' +
+                        '<ul>' +
+                        '<li>Nom: '+test[i].nom+'</li>' +
+                        '<li>Spécialité: '+test[i].specialite+'</li>' +
+                        '<li>Résidence: '+test[i].residence+'</li>' +
+                        '<li>Naissance: '+test[i].naissance+'</li>' +
+                        '<ul>Notes: '+ 
+                            '<li>Chanson: '+test[i].notes.chanson+'</li>'+
+                            '<li>Caractère: '+test[i].notes.caractère+'</li>'+  
+                            '<li>Note: '+test[i].notes.note+'</li>'+  
+                        '</ul>' +
+                        '</ul>' +
+                        '</div>';
+                    }
+                
+                    document.getElementById('team').innerHTML = output;
+                }
+            }
+            xhr.send();
+
+        };
+
+    </script>
+</body>
+
+</html>

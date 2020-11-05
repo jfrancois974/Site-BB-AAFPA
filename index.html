@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--    Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <!--  Bootstrap css file  -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--  Magnific Popup css file  -->
+        <link rel="stylesheet" href="vendor/Magnific-Popup/dist/magnific-popup.css">
+
+    <!--  Owl-carousel css file  -->
+        <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.default.min.css">
+    <!--  cdnjs css file  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--  custom css file  -->
+        <link rel="stylesheet" href="css/style.css">
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>BD Store Marseille</title>
+</head>
+<body>
+
+<!--  ======================= Start Header Area ============================== -->
+
+<header class="header_area">
+    <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo">BD Store Marseille</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-home"></i> Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop/mainShop.html">
+                            <i class="fas fa-store"></i> Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BD/Bd-collection.html">
+                            <i class="fas fa-book-reader"></i> Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Trombinoscope/trombi.html">
+                            <i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FormulaireAjax/FormulaireAjax.html">
+                            <i class="fas fa-address-card"></i> A propos</a>
+                    </li>
+                </ul>
+                <div class="cart-btn">
+                    <a href="shop/panier.html">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus text-uppercase" > </i>
+                    </span>
+                    <span class="cart-items">(0)</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!--  ======================= End Header Area ============================== -->
+
+<!--  ======================= Start Main Area ================================ -->
+<main class="site-main">
+
+
+    <!--  ======================= Start Banner Area =======================  -->
+    <section class="site-banner">
+        <div class="site-menu">
+            <h3>Retrouver le goût de la lecture</h3>
+            <h1 >BD STORE</h1>
+            <h2>MARSEILLE</h2>
+            <button type="button" class="btn button secondary-button text-uppercase ">Collections</button>
+        </div>
+    </section>
+    <!--  ======================= End Banner Area =======================  -->
+
+    <!--  ======================= Collections Area ===========================  -->
+
+    <section class="collection-area" id="collection">
+        <div class="container">
+            <div class="collection-title pb-5">
+                <h1 class="text-uppercase title-h1"> La sélection du moment </h1>
+            </div>
+            <div class="button-group">
+                <button type="button" class="active" id="btn1" data-filter="*">Tous</button>
+                <button type="button" data-filter=".popular">Populaire</button>
+                <button type="button" data-filter=".latest">Derniers</button>
+                <button type="button" data-filter=".following">Plus vus</button>
+                <button type="button" data-filter=".upcoming">Les plus attendus</button>
+            </div>
+
+            <div class="row grid">
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/AstÇrix-08-AstÇrix chez les Bretons.jpg">
+                                <img src="./images/AstÇrix-08-AstÇrix chez les Bretons.jpg" alt="Astérix: chez les bretons" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Astérix: chez les bretons</h4>
+                            <span class="text-secondary">Derniers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/Blacksad-03-Ame rouge.jpg">
+                                <img src="./images/Blacksad-03-Ame rouge.jpg" alt="Blacksad ame-rouge" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Blacksad Ame-rouge</h4>
+                            <span class="text-secondary">Derniers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="./images/Blueberry-02-Lhomme Ö lÇtoile dargent.jpg">
+                                <img src="./images/Blueberry-02-Lhomme Ö lÇtoile dargent.jpg" alt="Blueberry L'homme à l'étoile dargent" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Blueberry L'homme à l'étoile dargent</h4>
+                            <span class="text-secondary">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/Boule et bill-25-22 vlÖ.jpg">
+                                <img src="images/Boule et bill-25-22 vlÖ.jpg" alt="Boule et Bill" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Boule et Bill</h4>
+                            <span class="text-secondary">Les plus attendus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/CÇdric-15-Avis de tempàte.jpg">
+                                <img src="images/CÇdric-15-Avis de tempàte.jpg" alt="Cédric : Avis de tempête" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Cédric : Avis de tempête</h4>
+                            <span class="text-secondary">Les plus attendus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/Elfes-01-Le crystal des Elfes bleus.jpg">
+                                <img src="images/Elfes-01-Le crystal des Elfes bleus.jpg" alt="Elfes: Le Crystal des Elfes Bleues" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Elfes: Le Crystal des Elfes Bleues</h4>
+                            <span class="text-secondary">Plus vus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/Gaston-14-La saga des gaffes.jpg">
+                                <img src="images/Gaston-14-La saga des gaffes.jpg" alt="Gaston: la saga des gaffes" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Gaston: la saga des gaffes</h4>
+                            <span class="text-secondary">Plus vus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/Kaamelott-03-LÇnigme du coffre.jpg">
+                                <img src="images/Kaamelott-03-LÇnigme du coffre.jpg" alt="Kaamelott: l'Enigme du Coffre" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">l'Enigme du Coffre</h4>
+                            <span class="text-secondary">Plus vus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                    <div class="our-collection">
+                        <div class="img">
+                            <a class="test-popup-link" href="images/Largo Winch-16-La voie et la vertu.jpg">
+                                <img src="images/Largo Winch-16-La voie et la vertu.jpg" alt="Largo Winch: Lavoie de la vertue" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Largo Winch: Lavoie de la vertue</h4>
+                            <span class="text-secondary">Les plus attendus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  ======================= End collection Area ========================  -->
+    <!--  ======================= Start Geoloc Area ===========================  -->
+    <section class="geoloc-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 col-md-12 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.121473843449!2d5.393693251603801!3d43.269830885050325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9b8a778a71c19%3A0xf30ae56cc3f4dc1e!2sOrange%20V%C3%A9lodrome!5e0!3m2!1sfr!2sfr!4v1598358121594!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <button type="button" class="btn button primary-button text-uppercase btn-block">Pour venir recuperer
+                        vos achats</button>
+                </div>
+                <div class="col-xl-6 col-lg-12 col-md-12 meteo">
+                    <!-- weather widget start -->
+                    <div id="cont_MTMwNTV8M3wzfDN8NHxGRkZGRkZ8OXxGRkZGRkZ8Y3wx"><div id="spa_MTMwNTV8M3wzfDN8NHxGRkZGRkZ8OXxGRkZGRkZ8Y3wx"><a id="a_MTMwNTV8M3wzfDN8NHxGRkZGRkZ8OXxGRkZGRkZ8Y3wx" href="https://www.meteocity.com/france/marseille_v13055/" target="_blank" style="color:#333;text-decoration:none;">Météo Marseille</a> ©<a href="https://www.meteocity.com">meteocity.com</a></div><script type="text/javascript" src="//widget.meteocity.com/js/MTMwNTV8M3wzfDN8NHxGRkZGRkZ8OXxGRkZGRkZ8Y3wx"></script></div>
+                    <!-- weather widget end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--  ======================= End Geoloc Area =============================  -->
+
+    <!--  ======================== About Me Area ==============================  -->
+
+    <section class="about-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="about-title">
+                        <h1 class="text-uppercase title-h1">Ils parlent de nous</h1>
+                        <p class="para">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, deleniti
+                            recusandae. Esse incidunt rem repellendus ab voluptates maxime? Nemo, numquam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container carousel py-lg-5">
+            <div class="owl-carousel owl-theme">
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">John Martin</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">John Martin</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">John Martin</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="images/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  ======================== End About Me Area ===========================  -->
+    <!--  ========================== Subscribe me Area =========================  -->
+    <section class="subscribe-us-area">
+        <div class="container subscribe">
+            <div class="row">
+                <div class="col-lg-12 text-center subscribe-title">
+                    <h4 class="text-uppercase">Une question ?</h4>
+                    <p class="para">Pour de plus amples renseignements, n'hésitez pas à nous contacter .</p>
+                </div>
+            </div>
+            <div class="d-sm-flex justify-content-center">
+                <form class="w-50">
+                    <div class="row d-flex flex-row flex-wrap">
+                        <div class="col input-textbox">
+                            <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <div class="btn-submit">
+                                <button type="submit" class="btn btn-success float-right">S'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--  ========================== End Subscribe me Area =====================  -->
+
+</main>
+<!--  ======================= End Main Area ===================================== -->
+<!--  ===================== Footer Area =================================  -->
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row ">
+            <div class="col col-md-4 d-flex justify-content-center align-items-center">
+                <div class=" ">
+                    <h2 class="text-black-50">Informations</h2>
+                    <div class="block-23 mb-3">
+                        <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                            <li><a href="#" class="py-2 d-block">Retours &amp; Echange</a></li>
+                            <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                            <li><a href="#" class="py-2 d-block">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="images/logo.png" alt="logo" style="width: 120px;"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Nous suivre</h5>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2020 All rights reserved |<br> Site réalisé
+                        <a href="#"><span style="color: var(--primary-color);">Jeff</span></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col col-md-4 d-flex justify-content-center align-items-center">
+                <div class=" mb-4">
+                    <h2 class="text-black-50">Des questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><i class="fas fa-map-marker"></i><span class="text"> 16 Allée du Stade, MARSEILLE
+                                13000</span></li>
+                            <li><a
+                                    href="#"><i class="fas fa-map-marker"></i></span><span class="text"> +33 4 91 25 36
+                                36</span></a></li>
+                            <li><a
+                                    href="#"><i class="fas fa-envelope"></i><span class="text"> info@Bdstore
+                                .com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--  ===================== End footer Area ====================================  -->
+
+
+
+
+
+        <!--  Jquery js file  -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+        <!--  Bootstrap js file  -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!--  isotope js library  -->
+        <script src="vendor/isotope/isotope.min.js"></script>
+
+        <!--  Magnific popup script file  -->
+        <script src="vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+        <!--  Owl-carousel js file  -->
+        <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+        <!--  custom js file  -->
+        <script src="asset/main.js"></script>
+</body>
+</html>

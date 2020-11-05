@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--    Favicon-->
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="Content-Language" content="fr" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="Bootstrap jQuery Ajax Regex" />
+		<meta name="Subject" content="" />
+		<meta name="Content-Type" content="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/regex.js"></script>
+		<script type="text/javascript" src="js/cp.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+		<link rel="stylesheet" href="js/jquery-ui.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+
+			#formu {
+
+				margin-left: 250px;
+				width: 250px;
+				height: 52px;
+			}
+			li{
+				list-style: none;
+
+			}
+		</style>
+		
+		<title>Formulaire d'incription</title>
+	</head>
+	<body>
+	<!--  ======================= Start Header Area ============================== -->
+
+	<header class="header_area">
+		<div class="main-menu">
+			<a class="navbar-brand" href="#"><img src="../images/logo.png" alt="logo">BD Store Marseille</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="mr-auto"></div>
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="../index.html">
+								<i class="fas fa-home"></i> Accueil <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../shop/mainShop.html">
+								<i class="fas fa-store"></i> Boutique</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../BD/Bd-collection.html">
+								<i class="fas fa-book-reader"></i> Collections</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<i class="fas fa-address-card"></i> A propos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Trombinoscope/trombi.html">
+								<i class="fas fa-envelope"></i> Contact</a>
+						</li>
+					</ul>
+				</div>
+
+			</nav>
+		</div>
+	</header>
+
+	<!--  ======================= End Header Area ============================== -->
+
+	<!--  ======================= Start Main Area ================================ -->
+	<main class="site-main my_backgdround">
+
+
+		<!--  ======================= Start Banner Area =======================  -->
+		<section class="site-banner">
+			<div class="site-menu">
+				<h3>Retrouver le goût de la lecture</h3>
+				<h1 >BD STORE</h1>
+				<h2>MARSEILLE</h2>
+				<button type="button" class="btn button secondary-button text-uppercase ">Collections</button>
+			</div>
+		</section>
+		<!--  ======================= End Banner Area =======================  -->
+
+
+			<div class="container">
+				</br>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-3">
+						<div class="form-group">
+							<label for="Nom">Nom</label>
+							<input type="text" class="form-control" id="nom" placeholder="Nom"><span id="nom_ok"></span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-3">
+						<div class="form-group">
+							<label for="Prenom">Prénom</label>
+							<input type="text" class="form-control" id="prenom" placeholder="Prénom"><span id="prenom_ok"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-5">
+						<div class="form-group">
+							<label for="Email">Adresse Mail</label>
+							<input type="text" class="form-control" id="email" placeholder="Email"><span id="email_ok"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-3">
+						<div class="form-group">
+							<table>
+								<tr>
+									<td>
+							<label for="password">Mot de passe</label>
+								<input type="password" class="form-control" id="password" placeholder="Mot de passe">
+									</td>
+									<td>
+										
+										<span id="affiche" 	class="glyphicon glyphicon-eye-open" style="height:34px;width:34px;position: auto;margin-left: -20px;margin-top:40px" title="SURVOLER POUR AFFICHER LE MOT DE PASSE SAISIE"></span>
+									</td>
+							</tr>
+							</table>
+							
+							<span id="password_ok"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-3">
+						<div class="form-group">
+							<label for="vpassword">Vérification mot de passe</label>
+							<input type="password" class="form-control" id="vpassword" placeholder="Vérification mot de passe"><span id="vpassword_ok"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-5">
+						<div class="form-group">
+							<label for="adresse">Adresse</label>
+							<input type="text" class="form-control" id="adresse" placeholder="Adresse" ><span id="adresse_ok"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-2">
+						<div class="form-group" name="zipbox">
+							<label for="zip">Code Postal</label>
+							<input type="text" class="form-control" id="zip" placeholder="Code Postal" autocomplete="off" autofocus>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-3">
+						<div class="form-group">
+							<label for="city">Ville</label>
+							<input type="text" class="form-control" id="city" placeholder="Ville" autocomplete="off">
+						</div>
+					</div>
+				</div>
+			
+			<div class="row">
+				<div class="col-md-offset-2 col-md-3">
+					<div class="input-group">
+						<span class="input-group-addon glyphicon glyphicon-earphone"></span>
+						<input type="text" class="form-control" placeholder="Téléphone" aria-describedby="basic-addon1">
+					</div>
+					
+				</div>
+			</div>
+			<br/>
+			<div class="btn ">
+				<button type="submit" class="btn button primary-button text-uppercase  " id="formu"> Envoyer</button>
+			</div>
+		</div>
+		</main>
+
+	<!--  ===================== Footer Area =================================  -->
+
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row ">
+				<div class="col col-md-4 d-flex justify-content-center align-items-center">
+					<div class=" ">
+						<h2 class="text-black-50">Informations</h2>
+						<div class="block-23 mb-3">
+							<ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+								<li><a href="#" class="py-2 d-block">Retours &amp; Echange</a></li>
+								<li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+								<li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+								<li><a href="#" class="py-2 d-block">FAQs</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-4">
+					<div class="site-logo text-center py-4">
+						<a href="#"><img src="../images/logo.png" alt="logo" style="width: 120px;"></a>
+					</div>
+					<div class="social text-center">
+						<h5 class="text-uppercase">Nous suivre</h5>
+						<a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</div>
+					<div class="copyrights text-center">
+						<p class="para">
+							Copyright ©2020 All rights reserved |<br> Site réalisé
+							<a href="#"><span style="color: var(--primary-color);">Jeff</span></a>
+						</p>
+					</div>
+				</div>
+				<div class="col col-md-4 d-flex justify-content-center align-items-center">
+					<div class=" mb-4">
+						<h2 class="text-black-50">Des questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><i class="fas fa-map-marker"></i><span class="text"> 16 Allée du Stade, MARSEILLE
+                                13000</span></li>
+								<li><a
+										href="#"><i class="fas fa-map-marker"></i></span><span class="text"> +33 4 91 25 36
+                                36</span></a></li>
+								<li><a
+										href="#"><i class="fas fa-envelope"></i><span class="text"> info@Bdstore
+                                .com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--  ===================== End footer Area ====================================  -->
+
+</body>
+</html>

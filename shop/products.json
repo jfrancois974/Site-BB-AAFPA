@@ -1,0 +1,1172 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": " Le dôme ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "images/Arkezone-01-Le dôme.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": " Astérix et Cléopatre ",
+        "price": 14.23,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "images/Astérix-06-Astérix et Cléopatre.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": " Astérix, le papyrus de César",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Astérix-36-Astérix, le papyrus de César.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": " Quelque part entre les ombres ",
+        "price": 10.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blacksad-01-Quelque part entre les ombres.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": " Le secret de l'espadon Tome 1",
+        "price": 11.28,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blake et Mortimer-01-Le secret de lespadon Tome 1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": " Le secret de l'espadon Tome 2 ",
+        "price": 11.28,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blake et Mortimer-02-Le secret de lespadon Tome 2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": " Fort Navajo ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blueberry-01-Fort Navajo.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": " Le cheval de fer ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blueberry-03-Le cheval de fer.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": " Album 13",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Boule et bill-13-Album 13.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": " Faut rigoler  ",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Boule et bill-26-Faut rigoler .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": " Les tueurs d'un autre monde ",
+        "price": 11.28,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Cristal-02-Les tueurs dun autre monde.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": " Passeport pour l'angoisse ",
+        "price": 11.28,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Cristal-03-Passeport pour langoisse.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "13"
+      },
+      "fields": {
+        "title": " 3615 code bavure ",
+        "price": 12.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/CRS = Détresse-02-3615 code bavure.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "14"
+      },
+      "fields": {
+        "title": " Enfin seuls !",
+        "price": 10.26,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Cédric-18-Enfin seuls .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "15"
+      },
+      "fields": {
+        "title": " Elle est moche !",
+        "price": 11.48,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Cédric-22-Elle est moche .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "16"
+      },
+      "fields": {
+        "title": " Graine de star",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Cédric-26-Graine de star.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "17"
+      },
+      "fields": {
+        "title": " Filles à papa ",
+        "price": 11.48,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Dad-01-Filles à papa.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "18"
+      },
+      "fields": {
+        "title": " Le guide du jeune père ",
+        "price": 9.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Divers-00a-Le guide du jeune père.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "19"
+      },
+      "fields": {
+        "title": " Le guide du jeune couple",
+        "price": 11.24,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Divers-00c-Le guide du jeune couple.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "20"
+      },
+      "fields": {
+        "title": " Le crystal des Elfes bleus",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Elfes-01-Le crystal des Elfes bleus.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "21"
+      },
+      "fields": {
+        "title": " Une croisière en enfer ",
+        "price": 10.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Elle sappelle Taxi-01-Une croisière en enfer.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "22"
+      },
+      "fields": {
+        "title": " La forêt suspendue ",
+        "price": 15.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Finn-01-La forêt suspendue.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "23"
+      },
+      "fields": {
+        "title": " Moi, gourmand ? ",
+        "price": 11.24,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Garfield-46-Moi, gourmand .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "24"
+      },
+      "fields": {
+        "title": " Gaffes à gogo ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Gaston-02-Gaffes à gogo.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "25"
+      },
+      "fields": {
+        "title": " Le gang des gaffeurs",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Gaston-12-Le gang des gaffeurs.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "26"
+      },
+      "fields": {
+        "title": " La saga des gaffes",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Gaston-14-La saga des gaffes.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "27"
+      },
+      "fields": {
+        "title": " Trop meugnon ",
+        "price": 14.23,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Gnomes de Troy-04-Trop meugnon.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "28"
+      },
+      "fields": {
+        "title": " La quête de la terre promise ",
+        "price": 9.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Goblins-04-La quête de la terre promise.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "29"
+      },
+      "fields": {
+        "title": " L'integrale ",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Harald le viking-00-Lintégrale.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "30"
+      },
+      "fields": {
+        "title": " L'étrange réveil du schtroumpf paresseux ",
+        "price": 10.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Histoires de Schtroumpfs-15-Létrange réveil du schtroumpf paresseux.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "31"
+      },
+      "fields": {
+        "title": " Blue ice ",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/IR-03-Blue ice.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "32"
+      },
+      "fields": {
+        "title": "Joe bar ",
+        "price": 14.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Joe bar team-01-Joe bar team Tome 1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "33"
+      },
+      "fields": {
+        "title": "Edition spéciale 40e anniversaire 10 ",
+        "price": 11.23,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Gaston-10es-Edition spéciale 40e anniversaire 10.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "34"
+      },
+      "fields": {
+        "title": "La mine de l'allemand perdu  ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Blueberry-04-La mine de lallemand perdu.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "35"
+      },
+      "fields": {
+        "title": "Morceaux choisis ! ",
+        "price": 11.28,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Goblins-HS1-Morceaux choisis .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "36"
+      },
+      "fields": {
+        "title": " Les sièges de transport  ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Kaamelott-02-Les sièges de transport.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "37"
+      },
+      "fields": {
+        "title": " L'apprenti cow-boy  ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Kid Lucky-01-Lapprenti cow-boy.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "38"
+      },
+      "fields": {
+        "title": " Jeux de vilains ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Kidpaddle-01-Jeux de vilains.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "39"
+      },
+      "fields": {
+        "title": "Tropico fun paradise ",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Koh-Lanta-02-Tropico fun paradise.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "40"
+      },
+      "fields": {
+        "title": "Les runes de Gartagueul",
+        "price": 14.2,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Kran-01-Les runes de Gartagueul.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "41"
+      },
+      "fields": {
+        "title": " L'esprit du lac",
+        "price": 13.1,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Kwaïdan-01-Lesprit du lac.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "42"
+      },
+      "fields": {
+        "title": "L'héritier",
+        "price": 11.24,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Largo Winch-01-Lhéritier.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "43"
+      },
+      "fields": {
+        "title": "OPA",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Largo Winch-03-OPA.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "43"
+      },
+      "fields": {
+        "title": " L'Histoire drôle ",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les blagues de Toto-10-LHistoire drôle.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "44"
+      },
+      "fields": {
+        "title": "Album 03",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les foot furieux-03-Album 03.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "45"
+      },
+      "fields": {
+        "title": "Mise à jour",
+        "price": 10,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les informaticiens-03-Mise à jour.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "46"
+      },
+      "fields": {
+        "title": "Le rossignol de Stepney",
+        "price": 12.64,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les quatre de baker street-03-Le rossignol de Stepney.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "47"
+      },
+      "fields": {
+        "title": "Le résultat, on s'en fout ! il faut gagner !",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les rugbymen-07-Le résultat, on sen fout  il faut gagner .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "48"
+      },
+      "fields": {
+        "title": "Boing Boing bart ",
+        "price": 15.2,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Les simpson-05-Boing Boing bart .jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "49"
+      },
+      "fields": {
+        "title": "Litteul Kévin T2",
+        "price": 10.54,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Litteul Kévin-02-Litteul Kévin T2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "50"
+      },
+      "fields": {
+        "title": "Le fil qui chante",
+        "price": 10.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Lucky Luke-46-Le fil qui chante.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "51"
+      },
+      "fields": {
+        "title": "Dalton city",
+        "price": 10.6,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Lucky Luke-49-Dalton city.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "52"
+      },
+      "fields": {
+        "title": "La métamorphose",
+        "price": 10.67,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Marlysa-11-La métamorphose.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "53"
+      },
+      "fields": {
+        "title": "Le papillon des cimes",
+        "price": 10.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Marsupilami-09-Le papillon des cimes.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "54"
+      },
+      "fields": {
+        "title": "Farfadets et korrigans",
+        "price": 14.52,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Mélusine-06-Farfadets et korrigans.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "55"
+      },
+      "fields": {
+        "title": "Les pierres de Rome",
+        "price": 14.23,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Métropoles-01-Les pierres de Rome.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "56"
+      },
+      "fields": {
+        "title": "Premières mesures",
+        "price": 10.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Pacush blues-01-Premières mesures.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "57"
+      },
+      "fields": {
+        "title": "Mains rouges",
+        "price": 14.56,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Peter Pan-04-Mains rouges.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "58"
+      },
+      "fields": {
+        "title": "Des os pilants",
+        "price": 9.58,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Pierre tombal-04-Des os pilants.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "59"
+      },
+      "fields": {
+        "title": "L'échelle de kent",
+        "price": 14.52,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Private liberty-01-Léchelle de kent.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "60"
+      },
+      "fields": {
+        "title": "Comme aurait fait Craô",
+        "price": 11.24,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Rahan fils des âges farouches-01-Comme aurait fait Craô.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "61"
+      },
+      "fields": {
+        "title": "Un ange trépasse",
+        "price": 9.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Soda-01-Un ange trépasse.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "62"
+      },
+      "fields": {
+        "title": "Les pirates du silence",
+        "price": 10.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Spirou et Fantasio-10-Les pirates du silence.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "63"
+      },
+      "fields": {
+        "title": "Tora torapa",
+        "price": 12.5,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Spirou et Fantasio-23-Tora torapa.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "64"
+      },
+      "fields": {
+        "title": "Destination Duralex",
+        "price": 10.56,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Testar le robot-01-Destination Duralex.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "65"
+      },
+      "fields": {
+        "title": "L'enfant des étoiles",
+        "price": 10.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Thorgal-07-Lenfant des étoiles.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "66"
+      },
+      "fields": {
+        "title": "Lâchez-moi le slip",
+        "price": 10.4,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Titeuf-08-Lâchez-moi le slip.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "67"
+      },
+      "fields": {
+        "title": "Histoire trolles",
+        "price": 16.95,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Trolls de Troy-01-Histoire trolles.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "68"
+      },
+      "fields": {
+        "title": "Le feu occulte",
+        "price": 11.24,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Trolls de Troy-04-Le feu occulte.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "69"
+      },
+      "fields": {
+        "title": "Le fruit de la connaissance",
+        "price": 12.65,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Universal war one-02-Le fruit de la connaissance.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "70"
+      },
+      "fields": {
+        "title": "Toutes les larmes de l'enfer",
+        "price": 10.26,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/XIII-03-Toutes les larmes de lenfer.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "71"
+      },
+      "fields": {
+        "title": "Le dernier round",
+        "price": 11.45,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/XIII-19-Le dernier round.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "72"
+      },
+      "fields": {
+        "title": " Chez les castors ",
+        "price": 9.8,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/Yakari-03-Chez les castors.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
